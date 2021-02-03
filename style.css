@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Nova Square', cursive;
+}
+
+body {
+    background-color: rgb(29, 26, 26);
+}
+
+h1 {
+    font-size: 3.4rem;
+    color: #ffff;
+    margin-bottom: 5rem;
+}
+
+
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+
+}
+
+.text-center {
+    text-align: center;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-size: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: rgb(212, 72, 72);
+}
+
+.btn:hover {
+    color: rgb(202, 151, 151);
+}
+
+
+/* ------------- end page ----------- */
+
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0, 5);
+
+}
+
+
+input::placeholder {
+    color: #aaa;
+
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color: #fff;
+    text-align: center;
+
+}
+
+#saveScoreBtn {
+    border: none;
+
+}
+
+.fa-home {
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: rgb(28,26,26);
+}
