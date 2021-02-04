@@ -12,11 +12,11 @@ let availableQuestions = [];
 
 let questions = [
     {
-        question:'Jak ma na imię najpiękniejszy pies na świecie',
-        choice1: 'Frania',
-        choice2: 'Dina',
-        choice3: 'Misia',
-        choice4: 'Bambi',
+        question:'Ile to 2 + 2',
+        choice1: '4',
+        choice2: '6',
+        choice3: '8',
+        choice4: '2',
         answer: 1,
     },
     {
